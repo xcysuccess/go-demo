@@ -30,7 +30,8 @@ func main() { //3
 	//testUnSafe()
 	//testUnsafeOffset()
 	//testChannel()
-	testPanic()
+	//testPanic()
+	test
 }
 
 func testNumber() {
@@ -312,3 +313,5 @@ func testPanic() {
 	}()
 	panic("unknown error")
 }
+
+
