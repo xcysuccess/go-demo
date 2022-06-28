@@ -16,7 +16,7 @@ func (p Gopher) code() {
 }
 
 func (p *Gopher) debug() {
-	fmt.Printf("I am debuging %s language\n", p.language)
+	fmt.Printf("I am debuging %s language pointer\n", p.language)
 }
 
 func main() {
